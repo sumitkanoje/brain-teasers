@@ -21,38 +21,66 @@ Print the answer to each query on a new line.
 #####Constraints
 
 1 ≤ N ≤ 105
+
 1 ≤ Q ≤ 105
+
 0 ≤ A[i] ≤ 105
+
 1 ≤ L ≤ R ≤ N
+
 1 ≤ K ≤ 10
+
 NOTE:
+
 We are using 1-based indexing for array A.
 
 #####Sample Input (Plaintext Link)
 8 6
+
 5 4 2 1 7 9 10 9
+
 1 8 1
+
 1 8 2
+
 4 8 9
+
 3 7 2
+
 3 7 3
+
 3 7 4
 #####Sample Output (Plaintext Link)
 47
+
 24
+
 1
+
 19
+
 11
+
 12
 #####Explanation
 For query 1 : A[1] + A[2] + A[3] + A[4] + A[5] + A[6] + A[8] = 47
+
 For query 2 : A[1] + A[3] + A[5] + A[7] = 24
+
 For query 3 : A[4] = 1
+
 For query 4 : A[3] + A[5] + A[7] = 19
+
 For query 5 : A[3] + A[6] = 11
+
 For query 6 : A[3] + A[7] = 12
+
 Time Limit: 2 sec(s) for each input file.
+
 Memory Limit: 256 MB
+
 Source Limit: 1024 KB
+
 Marking Scheme: Marks are awarded if any testcase passes.
+
 Allowed languages: C, C++, Clojure, Go, Haskell, C#, Java, JavaScript, Objective-C, Perl, PHP, Python, Ruby
